@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>HTML Form (Select Element)</h2>
+    <form action="/index.html">
+        <label for="cars">Choose a Car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+            <option value="tata">Tata</option>
+            <option value="benz">Benz</option>
+
+        </select>
+        <input type="submit">
+
+    </form><br>
+    <br>
+    <h2>Allow the Multiple Selection</h2>
+    <form action="/index.html">
+        <label for="cars">Choose the Car:</label>
+        <select id="cars" name="cars" size="4"Multiple>
+            <option value="volvo">Volvo</option>
+            <option value="Benz"> Benz</option>
+            <option value="tata">Tata</option>
+            <option value="suzuki">Suzuki</option>
+
+        </select><br>
+        <br>
+        <input type="submit">
+
+
+    </form>
+    <br>
+    <form action="/action_pages.php">
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="edge">edge</option>
+            <option value="chrome">chrome</option>
+            <option value="opera">opera</option>
+            <option value="firefox">firefox</option>
+
+
+        </datalist>
+        <input type="submit">
+
+    </form><br>
+    <br>
+    <form>
+        <input type="button" onclick="alert('hi buddy!')" value="click me!">
+     </form>
+    
+</body>
+</html>
